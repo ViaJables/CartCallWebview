@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">BG79Ua591J51EC3y7n6j2h6KLP52K59x</property>
+    <property name="acs-oauth-key-production" type="string">54BSozxOIIurAnhC7hL2KlEaWAlKCMLT</property>
+    <property name="acs-api-key-production" type="string">ozbIIdT81wMJ0NXgSQdyxSxQ5nPhCvXj</property>
+    <property name="acs-oauth-secret-development" type="string">yewwwOCQYdKobPhuzWUZIt5k4Nefb0WR</property>
+    <property name="acs-oauth-key-development" type="string">B0z9KckHSqCZrDKxq0zSwQKMbxjHBbno</property>
+    <property name="acs-api-key-development" type="string">C5OkKMogopSwoY2o3nzqzMCNz1nTPStE</property>
+    <deployment-targets>
+        <target device="mobileweb">true</target>
+        <target device="iphone">true</target>
+        <target device="ipad">true</target>
+        <target device="android">false</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.1.0.GA</sdk-version>
+    <id>com.cartcall.web</id>
+    <name>CartCallWeb</name>
+    <version>1.0</version>
+    <publisher>johnbrunsfeld</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2012 by johnbrunsfeld</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>c6066b59-55f0-44d8-a6f6-720102725b01</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs" version="2.1.0">ti.cloud</module>
+    </modules>
+</ti:app>
